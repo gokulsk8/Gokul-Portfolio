@@ -39,7 +39,7 @@ export default function Navigation({ activeSection, onSetSection, mobileOpen, se
       <div id="sidebar-portrait-frame" className="w-full h-32 sm:h-36 xl:h-40 bg-neutral-900 relative overflow-hidden flex-shrink-0 border-b-2 border-white/10 group">
         {/* Grayscale portrait with dynamic zoom on hover */}
         <img
-          src="src/assets/images/gokul-portfolio.jpeg"
+          src={benjaminPortrait}
           alt="Gokul L Portrait"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover grayscale contrast-110 brightness-95 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 pointer-events-none"
