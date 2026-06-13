@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 
 // Define our beautiful generated portrait path
-const benjaminPortrait = "src/assets/images/gokul-portfolio.jpeg";
+const benjaminPortrait = "src/assets/images/hero.png";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<ActiveSection>('home');
