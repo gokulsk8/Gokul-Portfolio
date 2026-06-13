@@ -2,7 +2,7 @@ import { Home, User, Briefcase, Code2, Milestone, GraduationCap, Trophy, Send, M
 import { ActiveSection } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
 
-const benjaminPortrait = "/src/assets/images/hero.png";
+import benjaminPortrait from '../assets/images/hero.png';
 
 interface NavigationProps {
   activeSection: ActiveSection;
